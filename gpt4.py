@@ -40,7 +40,7 @@ class Completion:
             "sec-fetch-mode": "cors",
             "sec-fetch-site": "same-origin",
             "cookie": f"safesearch_guest=Off; uuid_guest={str(uuid4())}",
-            "user-agent": "Mozilla/5.0 (Windows NT 5.1; U;  ; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.52",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36",
         }
         params = {
             "q": prompt,
