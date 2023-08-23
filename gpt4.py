@@ -26,7 +26,7 @@ class Completion:
         Raises:
             Exception: If unable to fetch the response or the required token from the response.
         """
-        client = tls_client.Session(client_identifier='firefox_102')
+        client = tls_client.Session(client_identifier='chrome_108')
         client.headers = {
             "authority": "you.com",
             "accept": "text/event-stream",
